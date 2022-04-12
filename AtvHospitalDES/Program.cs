@@ -20,16 +20,29 @@ namespace AtvHospitalDES
             menu.escolher();
             while (menu.opcao != "q")
             {
+                int i = 0;
+                if (menu.opcao == "c")
+                {
+                    pac[i].cad_pac();
+                }
+                if (menu.opcao == "e")
+                {
+                    pac[i].ex_pac();
+                }
+                if (menu.opcao == "ep")
+                {
+                    for(int j = 0; j < 3; j++)
+                    {
+                        while (j < 3)
+                        {
+                            Console.WriteLine(pac[j].nome);
+                        }
+                    }
+                }
+                i++;
                 menu.escolher();
             }
-            if (menu.opcao == "c")
-            {
-                menu.o_c();
-            }
-            if (menu.opcao == "e")
-            {
-                menu.o_e();
-            }
+            
             Console.WriteLine("PROGRAMA ENCERRADO");
             Console.ReadKey();
         }

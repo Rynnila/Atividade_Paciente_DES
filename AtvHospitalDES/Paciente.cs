@@ -66,6 +66,7 @@ namespace AtvHospitalDES
         public void ex_pacientes()
         {
             Console.WriteLine(nome + "\n");
+            Console.ReadKey();
         }
     }
 }
