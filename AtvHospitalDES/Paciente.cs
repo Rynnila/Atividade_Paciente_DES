@@ -63,11 +63,6 @@ namespace AtvHospitalDES
             Console.WriteLine("- Preferência: {0}", preferencial);
             Console.ReadKey();
         }
-        public void ex_pacientes()
-        {
-            Console.WriteLine(nome + "\n");
-            Console.ReadKey();
-        }
     }
 }
 

@@ -10,9 +10,9 @@ namespace AtvHospitalDES
     {
         public string opcao;
         public Paciente pac;
-        public FilaAtd f_a;
         public void escolher()
         {
+            Console.ReadKey();
             Console.WriteLine("Digite 'c' para CADASTRAR UM PACIENTE");
             Console.WriteLine("Digite 'e' para EXIBIR DADOS DE UM PACIENTE");
             Console.WriteLine("Digite 'o' para ORGANIZAR A FILA DE ATENDIMENTO");
@@ -22,6 +22,20 @@ namespace AtvHospitalDES
             Console.WriteLine("ESCOLHA AGORA: ");
             opcao = Console.ReadLine();
             Console.Clear();
+        }
+        public void list_pac()
+        {
+            Paciente[] pac = new Paciente[3];
+            for(int i = 0; i < 3; i++)
+            {
+                pac[i] = new Paciente();
+            }
+            int j = 0;
+            while (j < 3)
+            {
+                Console.WriteLine(pac[j].nome);
+                j++;
+            }
         }
     }
 }

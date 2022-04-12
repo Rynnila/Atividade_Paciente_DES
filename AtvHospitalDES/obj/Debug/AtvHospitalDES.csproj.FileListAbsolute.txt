@@ -4,3 +4,9 @@ c:\users\henrique\onedrive\documentos\visual studio 2015\Projects\AtvHospitalDES
 c:\users\henrique\onedrive\documentos\visual studio 2015\Projects\AtvHospitalDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.csprojResolveAssemblyReference.cache
 c:\users\henrique\onedrive\documentos\visual studio 2015\Projects\AtvHospitalDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.exe
 c:\users\henrique\onedrive\documentos\visual studio 2015\Projects\AtvHospitalDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.pdb
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\bin\Debug\AtvHospitalDES.exe.config
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.exe
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.pdb
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\bin\Debug\AtvHospitalDES.exe
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\bin\Debug\AtvHospitalDES.pdb
+C:\Users\Tecnico\Documents\Visual Studio 2015\Projects\AtividadeDES\AtvHospitalDES\obj\Debug\AtvHospitalDES.csprojResolveAssemblyReference.cache

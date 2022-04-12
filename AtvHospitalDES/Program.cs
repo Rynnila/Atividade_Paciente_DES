@@ -12,39 +12,48 @@ namespace AtvHospitalDES
         {
             Paciente[] pac = new Paciente[3];
             Menu menu = new Menu();
-            FilaAtd[] fila = new FilaAtd[3];
-            for (int i = 0; i < 3; i++)
+            int i = 0;
+            int p=0;
+            for (int j = 0; j < 3; j++)
             {
-                pac[i] = new Paciente();
+                pac[j] = new Paciente();
             }
             menu.escolher();
             while (menu.opcao != "q")
             {
-                int i = 0;
                 if (menu.opcao == "c")
                 {
                     pac[i].cad_pac();
                 }
                 if (menu.opcao == "e")
                 {
-                    pac[i].ex_pac();
+                    int j = 0;
+                    Console.WriteLine("Pacientes cadastrados: \n");
+                    while (j < 3)
+                    {
+                        Console.WriteLine("Paciente {0} cadastrado na posição {1}.", pac[j].nome, j);
+                        j++;
+                    }
+                    Console.WriteLine("Os dados do paciente em qual posição deseja exibir?");
+                    p = int.Parse(Console.ReadLine());
+                    pac[p].ex_pac();
                 }
                 if (menu.opcao == "ep")
                 {
-                    for(int j = 0; j < 3; j++)
+                    int j = 0;
+                    while (j < 3)
                     {
-                        while (j < 3)
-                        {
-                            Console.WriteLine(pac[j].nome);
-                        }
+                        Console.WriteLine("Paciente {0} cadastrado na posição {1}.",pac[j].nome,j);
+                        j++;
                     }
                 }
                 i++;
                 menu.escolher();
+             }
+               Console.WriteLine("PROGRAMA ENCERRADO");
+               Console.ReadKey();
             }
             
-            Console.WriteLine("PROGRAMA ENCERRADO");
-            Console.ReadKey();
-        }
+            
     }
 }
