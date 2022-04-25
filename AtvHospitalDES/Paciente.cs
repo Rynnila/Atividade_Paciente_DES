@@ -45,9 +45,8 @@ namespace AtvHospitalDES
             telefone = double.Parse(Console.ReadLine());
             Console.Write("Email do paciente: ");
             email = Console.ReadLine();
-            Console.WriteLine("O paciente é preferencial?");
+            Console.WriteLine("O paciente é preferencial?/n");
             preferencia_fila();
-            Console.WriteLine("");
             Console.ReadKey();
         }
 
