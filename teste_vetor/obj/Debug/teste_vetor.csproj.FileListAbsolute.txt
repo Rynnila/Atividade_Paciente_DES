@@ -1,0 +1,5 @@
+C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.exe.config
+C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.exe
+C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.pdb
+C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.exe
+C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.pdb

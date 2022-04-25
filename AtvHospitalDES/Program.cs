@@ -13,7 +13,8 @@ namespace AtvHospitalDES
             Paciente[] pac = new Paciente[3];
             Menu menu = new Menu();
             int i = 0;
-            int p=0;
+            int p = 0;
+            int aux = 0;
             for (int j = 0; j < 3; j++)
             {
                 pac[j] = new Paciente();
@@ -46,6 +47,10 @@ namespace AtvHospitalDES
                         Console.WriteLine("Paciente {0} cadastrado na posição {1}.",pac[j].nome,j);
                         j++;
                     }
+                }
+                if (menu.opcao == "o")
+                {
+                    if
                 }
                 i++;
                 menu.escolher();
