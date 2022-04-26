@@ -3,3 +3,9 @@ C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_veto
 C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.pdb
 C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.exe
 C:\Users\Tecnico\Desktop\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.pdb
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.exe.config
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.exe
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.pdb
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.exe
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\bin\Debug\teste_vetor.pdb
+C:\Users\Henrique\OneDrive\Documentos\Visual Studio 2015\Projects\AtvHospitalDES\Atividade_Paciente_DES\teste_vetor\obj\Debug\teste_vetor.csprojResolveAssemblyReference.cache

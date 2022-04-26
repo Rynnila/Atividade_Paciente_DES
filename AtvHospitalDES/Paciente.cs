@@ -45,9 +45,10 @@ namespace AtvHospitalDES
             telefone = double.Parse(Console.ReadLine());
             Console.Write("Email do paciente: ");
             email = Console.ReadLine();
-            Console.WriteLine("O paciente é preferencial?/n");
+            Console.WriteLine("O paciente é preferencial?");
             preferencia_fila();
             Console.ReadKey();
+            Console.Clear();
         }
 
         public void ex_pac()
@@ -58,9 +59,10 @@ namespace AtvHospitalDES
             Console.WriteLine("- CPF: {0}", cpf);
             Console.WriteLine("- Endereço: {0}", endereco);
             Console.WriteLine("- Telefone: {0}", telefone);
-            Console.WriteLine("- E-mail: {0}\n", email);
+            Console.WriteLine("- E-mail: {0}", email);
             Console.WriteLine("- Preferência: {0}", preferencial);
             Console.ReadKey();
+            Console.Clear();
         }
     }
 }

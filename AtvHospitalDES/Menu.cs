@@ -12,7 +12,6 @@ namespace AtvHospitalDES
         public Paciente pac;
         public void escolher()
         {
-            Console.ReadKey();
             Console.WriteLine("Digite 'c' para CADASTRAR UM PACIENTE");
             Console.WriteLine("Digite 'e' para EXIBIR DADOS DE UM PACIENTE");
             Console.WriteLine("Digite 'o' para ORGANIZAR A FILA DE ATENDIMENTO");

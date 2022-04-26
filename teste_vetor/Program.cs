@@ -19,23 +19,23 @@ namespace teste_vetor
                 Console.WriteLine("Escreva 10 números");
                 Console.WriteLine("Número {0}: ", i);
                 numeros[i] = int.Parse(Console.ReadLine());
-                if (numeros[i] < numeros[i + 1])
-                {
-
-                }
-                else
-                {
-                    aux = numeros[i];
-                    numeros[i] = numeros[i + 1];
-                    numeros[i + 1] = aux;
-                }
                 i++;
             }
 
             Console.WriteLine("Exibição");
             for (int j = 0; j < 3; j++)
             {
-                Console.WriteLine(numeros[i]);
+                if (numeros[j] < numeros[j + 1])
+                {
+                    j++;
+                }
+                else
+                {
+                    aux = numeros[j];
+                    numeros[j + 1] = aux;
+                    j++;
+                }
+               Console.WriteLine(numeros[i]);
             }
             Console.ReadKey();
         }

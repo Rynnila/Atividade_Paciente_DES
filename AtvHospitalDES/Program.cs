@@ -15,18 +15,20 @@ namespace AtvHospitalDES
             int i = 0;
             int p = 0;
             int aux = 0;
+
             for (int j = 0; j < 3; j++)
             {
                 pac[j] = new Paciente();
             }
+
             menu.escolher();
             while (menu.opcao != "q")
             {
-                if (menu.opcao == "c")
+                if (menu.opcao == "c")//cadastrar paciente
                 {
                     pac[i].cad_pac();
                 }
-                if (menu.opcao == "e")
+                if (menu.opcao == "e")//alterar dados do paciente em tal posição
                 {
                     int j = 0;
                     Console.WriteLine("Pacientes cadastrados: \n");
@@ -39,7 +41,7 @@ namespace AtvHospitalDES
                     p = int.Parse(Console.ReadLine());
                     pac[p].ex_pac();
                 }
-                if (menu.opcao == "ep")
+                if (menu.opcao == "ep")//exibir os pacientes cadastrados em cada posição
                 {
                     int j = 0;
                     while (j < 3)
@@ -48,9 +50,22 @@ namespace AtvHospitalDES
                         j++;
                     }
                 }
-                if (menu.opcao == "o")
+                if (menu.opcao == "o")//organizar fila
                 {
-                    if
+                    
+                }
+                if (menu.opcao == "a")//alterar dados do paciente em tal posicao
+                {
+                    int j = 0;
+                    Console.WriteLine("Pacientes cadastrados: \n");
+                    while (j < 3)
+                    {
+                        Console.WriteLine("Paciente {0} cadastrado na posição {1}.", pac[j].nome, j);
+                        j++;
+                    }
+                    Console.WriteLine("Os dados do paciente em qual posição deseja alterar?");
+                    p = int.Parse(Console.ReadLine());
+                    pac[p].cad_pac();
                 }
                 i++;
                 menu.escolher();
